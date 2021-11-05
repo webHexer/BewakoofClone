@@ -1,0 +1,209 @@
+.viewClothes {
+  margin-top: 130px;
+  margin-bottom: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.category__name {
+  font-family: montserrat-bold, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+hr {
+  width: 117px;
+  height: 2px;
+  background-color: #fbd139;
+  display: block;
+  margin: 3px 0 0 2px;
+}
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.sidebar {
+  margin-top: 0px;
+  margin-left: 10px;
+  width: 25%;
+}
+
+.filter {
+  line-height: normal;
+  color: rgba(45, 45, 45, 0.5);
+  font-family: montserrat-bold, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 30px 10px 5px 20px;
+}
+
+.sidebar__accordion {
+  margin-left: 6px;
+}
+
+.accordion > .card > .card-header {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  outline: none;
+  border: none;
+  margin-bottom: -1px;
+  background: transparent;
+}
+
+.accordion > .card:not(:last-of-type) {
+  border: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.accordion > .card:not(:first-of-type) {
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn btn-link :focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.listing__Box {
+  font-size: 12px;
+  color: rgba(45, 45, 45, 0.7);
+  font-family: montserrat, sans-serif;
+  transition: all 0.2s ease-in 0s;
+  padding: 7px 10px;
+  width: 100%;
+}
+
+.black__color {
+  background-color: black;
+}
+.blue__color {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.grey__color {
+  background-color: grey;
+}
+.yellow__color {
+  background-color: yellow;
+}
+.cream__color {
+  background-color: rgba(130, 219, 219, 0.466);
+}
+
+.red__color {
+  background-color: red;
+}
+.white__color {
+  background-color: white;
+}
+.orange__color {
+  background-color: orange;
+}
+.aqua__color {
+  background-color: aqua;
+}
+.green__color {
+  background-color: green;
+}
+
+.pink__color {
+  background-color: pink;
+}
+.brown__color {
+  background-color: brown;
+}
+
+.products {
+  width: 75%;
+  margin-top: 65px;
+  margin-left: 30px;
+}
+
+.products__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1024px) {
+  .viewClothes {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 935px) {
+  .viewClothes {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .products {
+    width: 100%;
+    margin-top: 5px;
+    /* margin-left: 30px; */
+    margin-right: 30px;
+  }
+
+  .category__name {
+    font-family: montserrat-bold, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+@media (max-width: 661px) {
+  .viewClothes {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .products {
+    width: 100%;
+    margin-top: 5px;
+    /* margin-left: 30px; */
+    margin-right: 30px;
+  }
+
+  .category__name {
+    font-family: montserrat-bold, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .products__row {
+    grid-template-columns: 1fr 1fr;
+  }
+}

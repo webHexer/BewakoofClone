@@ -1,0 +1,140 @@
+.home {
+  margin-left: 88px;
+  margin-right: 88px;
+  padding-top: 38px;
+}
+Link {
+  width: 100%;
+  height: 100%;
+}
+.home__row {
+  display: flex;
+  height: 100%;
+}
+
+.home__row img {
+  width: 100% !important;
+}
+
+.home__category__one {
+  width: 50%;
+  padding: 12px;
+  object-fit: contain;
+}
+
+.home__category__two {
+  width: 50%;
+  padding: 12px;
+  object-fit: contain;
+}
+
+.home__site__description {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.home__site__description__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.home__slideshow {
+  margin-bottom: 55px;
+}
+
+.home__product__stating__price {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home__topwear__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.home__product__variety {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.home__product__variety img {
+  width: 100%;
+}
+
+.first__image {
+  width: 15%;
+  object-fit: contain;
+}
+
+.middle__image {
+  width: 15%;
+  object-fit: contain;
+  margin-left: 2%;
+}
+
+.last__image {
+  width: 15%;
+  object-fit: contain;
+  margin-left: 2%;
+}
+
+.home__banner {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home__banner__image {
+  width: 100%;
+  object-fit: contain;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.home > .three__image__row img {
+  width: 32%;
+  object-fit: contain;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.trending__middle__image {
+  margin-left: 1.8%;
+  margin-right: 1.8%;
+}
+
+@media (max-width: 1024px) {
+  .home {
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-top: 43px;
+  }
+  .home__site__description {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .home__slideshow {
+    margin-bottom: 45px;
+  }
+
+  .home__product__stating__price {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__site__description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .home__slideshow {
+    margin-bottom: 35px;
+  }
+
+  .home__product__stating__price {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}

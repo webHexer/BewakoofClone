@@ -1,0 +1,159 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+  padding-left: 75px;
+  padding-right: 75px;
+  display: flex;
+}
+
+.home__logo {
+  min-width: 100px;
+  height: 20px;
+  margin-bottom: 6px;
+  margin-right: 40px;
+}
+
+.header__navlinks {
+  display: inline;
+  font-size: 13px;
+  font-family: montserrat, sans-serif;
+  vertical-align: middle;
+  line-height: 45px;
+  padding: 0 11px;
+  letter-spacing: 1px;
+  position: relative;
+  cursor: pointer;
+}
+
+.header__searchbox__container {
+  margin: 2px;
+  display: inline-flex;
+}
+.header__searchbox {
+  margin: 2px;
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border: 0.5px;
+  padding: 5px 5px 5px 40px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+input:focus {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid;
+  outline-color: whitesmoke;
+}
+
+.header__search__icon {
+  position: relative;
+  left: 26px;
+  top: 15px;
+}
+
+.nav__icons {
+  margin: 10px 12px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.person__nav__icon {
+  margin-right: 5px;
+}
+
+.header__nav__icons {
+  display: flex;
+  overflow: hidden;
+}
+
+.header__nav__icons .no_of_item_added {
+  position: absolute;
+  top: 2px;
+  left: 21px;
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.header__or__symbol {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 10px;
+  margin-left: 3px;
+  float: left;
+}
+
+@media (max-width: 1238px) {
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+  }
+
+  .home__logo {
+    margin-bottom: 6px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .header__searchbox__container {
+    display: none;
+  }
+  .header__or__symbol {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .home__logo {
+    margin-bottom: 6px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 370px) {
+  .home__logo {
+    margin-bottom: 6px;
+    margin-left: 47px;
+  }
+
+  .navbar-brand {
+    margin-right: 0px;
+    margin-left: 0;
+  }
+
+  .navbar-light .navbar-toggler {
+    margin-left: 1px;
+    float: left;
+  }
+
+  .nav__icons {
+    margin: 10px 12px 10px 9px;
+    color: #333333;
+    cursor: pointer;
+  }
+
+  .person__nav__icon {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+}

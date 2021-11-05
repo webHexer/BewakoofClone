@@ -1,0 +1,40 @@
+.product {
+  margin: 10px;
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__price {
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.product__title {
+  font-size: 13px;
+}
+
+.product__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.product__tribe__price {
+  background-color: whitesmoke;
+  font-size: 13px;
+  padding: 0 5px 3px 5px;
+}
+
+@media (max-width: 400px) {
+  .product__title {
+    font-size: 10px;
+  }
+
+  .product__tribe__price {
+    background-color: whitesmoke;
+    font-size: 10px;
+    padding: 0 5px 3px 5px;
+  }
+}
